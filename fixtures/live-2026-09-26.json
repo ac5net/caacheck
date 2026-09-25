@@ -1,0 +1,50 @@
+{
+  "google.com":     {"Status":0,"AD":false,"caa":["0 issue \"pki.goog\""]},
+  "microsoft.com":  {"Status":0,"AD":false,"caa":["0 contactemail \"redacted@microsoft.com\""]},
+  "apple.com":      {"Status":0,"AD":false,"caa":["0 issuewild \"pki.apple.com\"","0 issue \"pki.apple.com\"","0 iodef \"mailto:redacted@apple.com\""]},
+  "amazon.com":     {"Status":0,"AD":false,"caa":[]},
+  "cloudflare.com": {"Status":0,"AD":true,"caa":[
+      "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
+      "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+      "0 iodef \"mailto:redacted@cloudflare.com\"",
+      "0 issuewild \"pki.goog; cansignhttpexchanges=yes\"",
+      "0 issuewild \"comodoca.com\"",
+      "0 issuewild \"letsencrypt.org\"",
+      "0 issuewild \"ssl.com\"",
+      "0 issue \"letsencrypt.org\"",
+      "0 issue \"ssl.com\"",
+      "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+      "0 issue \"comodoca.com\""]},
+  "github.com":     {"Status":0,"AD":false,"caa":[
+      "0 issue \"letsencrypt.org\"","0 issuewild \"letsencrypt.org\"",
+      "0 issue \"globalsign.com\"","0 issue \"digicert.com\"","0 issuewild \"digicert.com\"",
+      "0 issuewild \"sectigo.com\"","0 issue \"sectigo.com\""]},
+  "www.github.com": {"Status":0,"AD":false,"caa":[
+      "0 issue \"letsencrypt.org\"","0 issuewild \"letsencrypt.org\"",
+      "0 issue \"globalsign.com\"","0 issue \"digicert.com\"","0 issuewild \"digicert.com\"",
+      "0 issuewild \"sectigo.com\"","0 issue \"sectigo.com\""]},
+  "salesforce.com": {"Status":0,"AD":true,"caa":[]},
+  "zoom.us":        {"Status":0,"AD":false,"caa":[
+      "0 issue \"godaddy.com\"","0 iodef \"mailto:redacted@zoom.us\"","0 issue \"pki.goog\"",
+      "0 issue \"digicert.com\"","0 issue \"sectigo.com\"","0 issue \"amazon.com\"","0 issue \"letsencrypt.org\""]},
+  "slack.com":      {"Status":0,"AD":true,"caa":[
+      "0 iodef \"mailto:redacted@slack-corp.com\"",
+      "0 issue \"digicert.com; account=455b15ed272bed097725c6ea50e89921fc57379c5338a29305c05771df65fff1\"",
+      "0 issue \"letsencrypt.org; accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/1532134906\""]},
+  "okta.com":       {"Status":0,"AD":false,"caa":[
+      "0 iodef \"mailto:redacted@okta.com\"","0 iodef \"mailto:redacted@okta.com\"",
+      "0 issue \"pki.goog\"","0 issue \"amazonaws.com\"","0 issuewild \"digicert.com\"",
+      "0 issue \"digicert.com\"","0 issuewild \"globalsign.com\"","0 issue \"globalsign.com\"",
+      "0 issue \"letsencrypt.org\""]},
+  "developer.okta.com": {"Status":0,"AD":false,"caa":[]},
+  "cybozu.com":     {"Status":0,"AD":false,"caa":[
+      "0 issue \"amazon.com\"","0 issue \"sectigo.com\"","0 issuewild \"sectigo.com\"","0 iodef \"mailto:redacted@cybozu.co.jp\""]},
+  "yahoo.co.jp":    {"Status":0,"AD":false,"caa":[
+      "0 issue \"cybertrust.ne.jp\"","0 issue \"digicert.com;cansignhttpexchanges=yes\"",
+      "0 iodef \"mailto:redacted@mail.yahoo.co.jp\"","0 issue \"globalsign.com\""]},
+  "www.yahoo.co.jp": {"Status":0,"AD":false,"caa":[]},
+  "softbank.jp":    {"Status":0,"AD":false,"caa":[
+      "0 contactemail \"redacted@g.softbank.co.jp\"","0 contactemail \"redacted@g.softbank.co.jp\""]},
+  "mufg.jp":        {"Status":0,"AD":true,"caa":[]},
+  "smbc.co.jp":     {"Status":0,"AD":true,"caa":[]}
+}

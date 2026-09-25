@@ -1,0 +1,14 @@
+{
+  "certs.example.com":     {"caa":["0 issue \"ca1.example.net\"","0 issue \"ca2.example.org\""]},
+  "nocerts.example.com":   {"caa":["0 issue \";\""]},
+  "malformed.example.com": {"caa":["0 issue \"%%%%%\""]},
+  "account.example.com":   {"caa":["0 issue \"ca1.example.net; account=230123\""]},
+  "wild.example.com":      {"caa":["0 issue \"ca1.example.net\"","0 issuewild \"ca2.example.org\""]},
+  "wild2.example.com":     {"caa":["0 issue \"ca1.example.net\""]},
+  "wild3.example.com":     {"caa":["0 issuewild \"ca2.example.org\"","0 issue \";\""]},
+  "wild4.example.com":     {"caa":["0 issuewild \"ca2.example.org\""]},
+  "report.example.com":    {"caa":["0 issue \"ca1.example.net\"","0 iodef \"mailto:security@example.com\"","0 iodef \"https://iodef.example.com/\""]},
+  "new.example.com":       {"caa":["0 issue \"ca1.example.net\"","128 tbs \"Unknown\""]},
+  "b.c":                   {"caa":["0 issue \"example.com\""]},
+  "mixed.example.com":     {"caa":["0 issue \";\"","0 issue \"ca1.example.net\""]}
+}
